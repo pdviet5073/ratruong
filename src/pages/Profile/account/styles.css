@@ -1,0 +1,165 @@
+.account h1{
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+}
+
+.account-item,.account-item-check,.account-item-hidden,.account-item-edit{
+  position: relative;
+  width: 100%;
+  min-height: 10.5rem;
+  letter-spacing: .6px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,.1);
+  transition:  .5s ease;
+  
+}
+
+.account-item:nth-child(2){
+  background: linear-gradient(90deg,#f78887,#feadac);
+}
+.account-item + .account-item,
+.account-item + .account-item-edit,
+ .account-item-edit +.account-item 
+{
+  margin-top: 2rem;
+}
+
+.account-item-right{
+  cursor: pointer;
+  font-weight: 500;
+}
+.account-item-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: .8rem;
+}
+.account-item-content {
+  font-size: 1.5rem;
+  opacity: 0.75;
+}
+
+.account-item-hidden,.account-item-edit{
+  padding: 0;
+}
+.account-item-left{
+  display: flex;
+  align-items: center;
+}
+.account-name,.account-item-hidden,.account-phone,.account-password,.account-notifications{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 2rem;
+
+}
+.account-item:hover,.account-item-password:hover{
+  box-shadow: 0 4px 10px 0 rgba(32, 33, 36, .28);
+}
+.account input,.account .ant-select-selector{
+  max-width: 43rem;
+  height: 3.6rem !important;
+}
+
+/* ----------------------------- start name ------------------------- */
+.first-character{
+  width: 5.3rem;
+  height: 5.3rem;
+  border-radius: 50%;
+  background: linear-gradient(90deg,#ff8917,#e6ee15);
+  position: relative;
+  margin-right: 2.4rem;
+}
+.first-character span{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: #fff;
+}
+.account-item-hidden{
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+}
+/*------------ start edit name --------------*/
+
+.account-edit{
+  z-index: -1;
+  position: relative;
+  min-height: 0 ;
+  height: 0;
+  min-height: 0;
+  overflow: hidden;
+  transition:  .5s ease;
+  background-color: #fff;
+
+}
+.edit-name .ant-form-item{
+  margin-bottom: 2rem;
+}
+
+.account-edit-active,.account-edit-password-active {
+  background-color: #fff;
+  position: relative;
+  top: 0;
+  padding: 2rem;
+  z-index: 1;
+  min-height: 22rem;
+  max-height: 40rem;
+  overflow: hidden;
+  transition:   .5s ease;
+}
+/*------------ end edit name --------------*/
+/* ----------------------------- end name --------------------------- */
+
+
+/* ----------------------------- start email ------------------------- */
+.account-email{
+  height: 100%;
+  padding: 2rem;
+}
+.account-email span{
+  padding: .5rem 1rem ;
+  margin-left: 3rem;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  color: #fff;
+  background: linear-gradient(90deg,#ff8917,#ffb31a);
+}
+/* ----------------------------- end email --------------------------- */
+
+/* ----------------------------- start password ------------------------- */
+.account-item-content-password{
+  font-size: 1.7rem;
+  opacity: 0.6;
+  
+}
+
+.account-edit-password-active {
+  height: 100%;
+  
+}
+.account .ant-input-affix-wrapper, .account.ant-input-password{
+  padding: 0 11px;
+}
+/* ----------------------------- end password --------------------------- */
+/* ----------------------------- start notifications ------------------------- */
+.account-item-check{
+  margin-top: 2rem;
+  min-height: 9.5rem;
+  display: flex;
+  align-items: center;
+}
+.account-notifications{
+  width: 100%;
+}
+.account-item-check span {
+  padding-right: 2rem;
+  font-size: 1.5rem;
+}
+/* ----------------------------- end notifications --------------------------- */
+/* ----------------------------- start password ------------------------- */
+/* ----------------------------- end password --------------------------- */

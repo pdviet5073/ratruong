@@ -1,0 +1,68 @@
+.profile {
+  padding: 3rem 0;
+  background-color: hsl(0, 0%, 99%);
+}
+.profile-nav{
+  padding-top: 3rem;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,.1);
+  background: linear-gradient(90deg,hsl(0, 0%, 99%),#fff);
+  margin: -3rem 0;
+}
+.profile-list {
+  position: relative;
+  width: 28rem;
+  
+}
+.profile-container{
+  display: flex;
+}
+.profile-nav-item,.profile-nav-item-active{
+  display: flex;
+  align-items: center;
+}
+.profile-list svg {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #ff8917;
+  margin-right: 2rem;
+}
+.profile-list span {
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+  background-color: transparent;
+}
+
+.profile-list li:not(:last-child) {
+  height: 6rem;
+  padding-left: 24px;
+}
+.profile-list li:last-child {
+  position:absolute;
+  right:0;
+  width: 3px;
+  height:6rem;
+  background-color:#ff8917;
+   transition:  .3s ease
+}
+
+
+.ant-tabs-ink-bar,
+.ant-tabs-ink-bar-animated {
+  background-color: #ff8917;
+}
+.ant-tabs-tab-active span {
+  color: #ff8917;
+}
+.profile-nav-item-active,
+.profile-nav-item:hover {
+  background-color: rgba(253,185,19,.1);
+
+}
+
+
+.profile-content{
+  min-height: 80rem;
+  margin-left: 50px;
+  flex: 1;
+}

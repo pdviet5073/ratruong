@@ -1,0 +1,11 @@
+.main-booking{
+  display: flex;
+  margin-top: 30px !important;
+  min-height: 600px;
+}
+
+.booking-footer{
+  width: 100%;
+  padding-top: 64px;
+  background: url(https://statics.vntrip.vn/images/sprite/sprite-home_hotel.png) center -128px no-repeat;
+}

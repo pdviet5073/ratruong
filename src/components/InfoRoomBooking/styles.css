@@ -1,0 +1,100 @@
+.information-room{
+  width: 35%;
+
+
+}
+.information-room-container{
+  padding: 20px;
+  box-shadow: 1px 1px 9px rgba(0,0,0,.09);
+  margin-bottom: 1.5rem;
+}
+
+.information-room-content>h2{
+  width: fit-content;
+  border-bottom: 2px solid #ff8917;
+  padding-bottom: 6px;
+  margin-bottom: 1.4rem;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.info-hotel{
+  margin-bottom: 2.4rem;
+}
+.space-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0;
+}
+
+.information-room-image{
+  width: 100%;
+}
+.information-room-image  img{
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  box-shadow: 3px 6px 10px rgba(0,0,0,0.1);
+}
+.information-room-title{
+  margin: 10px 0 4px 0 ;
+  font-size: 1.8rem;
+  font-weight: 400;
+  
+}
+.information-room-title ul{
+  margin-left: 5px;
+  
+}
+.information-room-address {
+  margin-bottom: 8px;
+}
+.information-room-address img{
+  width: 1.4rem;
+  height: 1.4rem;
+  justify-content: space-between;
+  margin-right: 4px;
+}
+.information-room-container .ant-rate-star{
+  margin: 0;
+}
+.total-price{
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ccc;
+}
+/* -----------information-room-code-discount------- */
+.information-room-code-discount>div{
+  padding: 2rem;
+  height: fit-content;
+  box-shadow: 3px 6px 10px rgba(0,0,0,0.1);
+  
+}
+
+.information-room-code-discount button{
+  border-color: #ff8917;
+  background-color: #ff8917;
+}
+.information-room-code-discount button:hover{
+  border-color: #ff8917;
+  background-color: #ff8917;
+}
+/* ------------information-room-user----------- */
+.information-room-user{
+  width: 100%;
+  height: fit-content;
+  margin-top: 2rem;
+  padding: 2rem;
+  box-shadow: 3px 6px 10px rgba(0,0,0,0.1);
+
+}
+.information-room-user>div:first-child {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.information-room-user>div:first-child h3{
+  width: fit-content;
+  padding: 1rem;
+    margin-bottom: -1px;
+  border-bottom: 1px solid #ff8917;
+}

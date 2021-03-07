@@ -1,0 +1,33 @@
+.success{
+  margin: 0 auto;
+}
+.success .modal{
+
+  border-radius: 3px;
+}
+.success img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 200px;
+  height: auto;
+
+}
+.success .modal-title {
+  text-align: center;
+  line-height: 20px;
+  margin-top: 2rem;
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+
+.modal-body{
+  margin-top: 1.5rem;
+
+}
+.modal-footer  {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
